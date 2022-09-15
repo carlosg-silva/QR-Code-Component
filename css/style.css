@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   margin: 0 auto;
   display: grid;
@@ -14,8 +18,18 @@
 }
 
 .card {
-  width: 300px;
-  height: 400px;
+  width: 270px;
+  height: 430px;
+  border-radius: 15px;
   background: red;
   margin: 0 auto;
+}
+
+.qr {
+  width: 240px;
+  margin: 15px auto;
+}
+
+.qr img {
+  border-radius: 10px;
 }
